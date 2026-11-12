@@ -46,26 +46,25 @@ h1, h2:not(.article-title){
     text-align: center;
 }
 
-nav {
+nav:not(.legal) {
     background-color: #2c2825;
     color: #faf8f5;
     height: 30px;
     align-content: center;
 }
 
-nav a, footer a {
+nav a:not(.legal a), footer a {
     background-color: #2c2825;
     color: #f0eae1;
 }
 
-nav a:visited, footer a:visited {
+nav a:visited:not(.legal a), footer a:visited {
     color: #d8b4fe;
 }
 
-nav a:hover, footer a:hover {
+nav a:hover:not(.legal a), footer a:hover {
     color: #ffffff;
 }
-
 
 
 .gallery {
